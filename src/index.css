@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Pacifico&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-Pacifico: "Pacifico", cursive;
+  --font-newcursive:  "Edu NSW ACT Cursive", cursive;
+}
+
+body {
+  font-family: var(--font-newcursive);
+}
+h1 {
+  font-family: var(--font-Pacifico);
+}
